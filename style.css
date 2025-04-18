@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom right,#000428 ,#004e92);
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background: linear-gradient(to bottom right,#8e2de2 ,#4a00e0);
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.btn{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    font-weight: bold;
+    background: linear-gradient(to bottom right,#ff416c ,#062afa);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: linear-gradient(to bottom right,#000428 ,#004e92);
+}
+.social{
+    margin-top: 20px;
+}
+.social a{
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social a:hover{
+    color: #fbff00;
+}
+.projects-page{
+    text-align: center;
+    padding: 40px;
+}
+.projects-page h1{
+    font-size: 36px;
+    color: white;
+}
+.projects-page h2{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.377);
+}
+.gallery{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gallery img{
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+.aboutme{
+    margin: 20px;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.568);
+
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+.container:hover{
+    transform: scale(1.02);
+}
+.section{
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    transition: bacground-color 0.3s ease;
+}
+.section:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+ul{
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.section p{
+    font-size: 20px;
+    font-weight: bold;
+}
